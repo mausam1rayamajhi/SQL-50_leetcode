@@ -1,4 +1,4 @@
-1757. Recyclable and Low Fat Products
+/*1757. Recyclable and Low Fat Products
 Table: Products
 
 +-------------+---------+
@@ -46,6 +46,7 @@ Explanation: Only products 1 and 3 are both low fat and recyclable
 
 
 # Write your MySQL query statement below
+*/
 select product_id 
 from products 
 where low_fats = 'Y' and recyclable = 'Y'
